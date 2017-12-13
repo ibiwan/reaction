@@ -1,0 +1,27 @@
+[{
+  "language": "Greek",
+  "i18n": "el",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "παράδειγμα πληρωμής",
+          "squarePaymentProviderTitle": "παράδειγμα πληρωμής"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "παράδειγμα πληρωμής",
+          "squarePaymentProviderTitle": "παράδειγμα πληρωμής",
+          "squarePaymentProviderDescription": "Παράδειγμα Μέθοδος Πληρωμής"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "παράδειγμα Provider",
+          "squarePaymentSettingsLabel": "παράδειγμα πληρωμής",
+          "squareCredentials": "Αυτή είναι μια ρύθμιση παράδειγμα τη μέθοδο πληρωμής.",
+          "apiClientId": "API ID πελάτη",
+          "supportedMethodsLabel": "Οι μέθοδοι υποστήριξης του παρόχου πληρωμών"
+        }
+      }
+    }
+  }
+}]

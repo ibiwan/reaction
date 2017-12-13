@@ -1,0 +1,27 @@
+[{
+  "language": "Chinese",
+  "i18n": "zh",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "例如付款",
+          "squarePaymentProviderTitle": "例如付款"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "例如付款",
+          "squarePaymentProviderTitle": "例如付款",
+          "squarePaymentProviderDescription": "例如付款方法"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "例如供应商",
+          "squarePaymentSettingsLabel": "例如付款",
+          "squareCredentials": "这是一个例子付款方式设置。",
+          "apiClientId": "API客户端ID",
+          "supportedMethodsLabel": "付款提供商支持的方法"
+        }
+      }
+    }
+  }
+}]

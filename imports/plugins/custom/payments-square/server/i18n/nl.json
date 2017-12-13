@@ -1,0 +1,27 @@
+[{
+  "language": "Dutch",
+  "i18n": "nl",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "voorbeeld Betaling",
+          "squarePaymentProviderTitle": "voorbeeld Betaling"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "voorbeeld Betaling",
+          "squarePaymentProviderTitle": "voorbeeld Betaling",
+          "squarePaymentProviderDescription": "Voorbeeld Payment Method"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "voorbeeld Provider",
+          "squarePaymentSettingsLabel": "voorbeeld Betaling",
+          "squareCredentials": "Dit is een voorbeeld betaalmethode setting.",
+          "apiClientId": "API Client ID",
+          "supportedMethodsLabel": "Betaalmethoden ondersteunde methoden"
+        }
+      }
+    }
+  }
+}]

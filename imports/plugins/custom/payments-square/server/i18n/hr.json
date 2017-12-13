@@ -1,0 +1,27 @@
+[{
+  "language": "Croatian",
+  "i18n": "hr",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "Primjer plaćanja",
+          "squarePaymentProviderTitle": "Primjer plaćanja"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "Primjer plaćanja",
+          "squarePaymentProviderTitle": "Primjer plaćanja",
+          "squarePaymentProviderDescription": "Primjer Način plaćanja"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "Primjer Provider",
+          "squarePaymentSettingsLabel": "Primjer plaćanja",
+          "squareCredentials": "To je postavka primjer načina plaćanja.",
+          "apiClientId": "ID API klijenta",
+          "supportedMethodsLabel": "Metode plaćanja pružatelja usluga plaćanja"
+        }
+      }
+    }
+  }
+}]

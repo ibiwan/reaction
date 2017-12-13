@@ -1,0 +1,27 @@
+[{
+  "language": "Romanian",
+  "i18n": "ro",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "Exemplul de plată",
+          "squarePaymentProviderTitle": "Exemplul de plată"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "Exemplul de plată",
+          "squarePaymentProviderTitle": "Exemplul de plată",
+          "squarePaymentProviderDescription": "Exemplul Metoda de plată"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "Exemplul Provider",
+          "squarePaymentSettingsLabel": "Exemplul de plată",
+          "squareCredentials": "Aceasta este o setare exemplu metodă de plată.",
+          "apiClientId": "ID-ul client API",
+          "supportedMethodsLabel": "Metode acceptate de furnizor de plăți"
+        }
+      }
+    }
+  }
+}]

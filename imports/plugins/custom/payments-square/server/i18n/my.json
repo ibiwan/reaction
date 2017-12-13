@@ -1,0 +1,27 @@
+[{
+  "language": "Burmese",
+  "i18n": "my",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "ဥပမာအားငွေပေးချေမှုရမည့်",
+          "squarePaymentProviderTitle": "ဥပမာအားငွေပေးချေမှုရမည့်"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "ဥပမာအားငွေပေးချေမှုရမည့်",
+          "squarePaymentProviderTitle": "ဥပမာအားငွေပေးချေမှုရမည့်",
+          "squarePaymentProviderDescription": "ဥပမာအားငွေပေးချေမှုရမည့်နည်းလမ်း"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "ဥပမာအားပေးသူ",
+          "squarePaymentSettingsLabel": "ဥပမာအားငွေပေးချေမှုရမည့်",
+          "squareCredentials": "ဒါကဥပမာတစ်ခုပေးချေမှုနည်းလမ်း setting ကိုဖြစ်ပါတယ်။",
+          "apiClientId": "API ကိုလိုင်း ID ကို",
+          "supportedMethodsLabel": "ငွေပေးချေမှုရမည့်ပံ့ပိုးပေးနည်းလမ်းများကိုထောက်ခံ"
+        }
+      }
+    }
+  }
+}]

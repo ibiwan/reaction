@@ -1,0 +1,27 @@
+[{
+  "language": "Hungarian",
+  "i18n": "hu",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "példa Fizetési",
+          "squarePaymentProviderTitle": "példa Fizetési"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "példa Fizetési",
+          "squarePaymentProviderTitle": "példa Fizetési",
+          "squarePaymentProviderDescription": "Példa Fizetési mód"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "példa Szolgáltató",
+          "squarePaymentSettingsLabel": "példa Fizetési",
+          "squareCredentials": "Ez egy példa a fizetési módszer beállítást.",
+          "apiClientId": "API ügyfél azonosító",
+          "supportedMethodsLabel": "Fizetés szolgáltatója támogatott módszerekkel"
+        }
+      }
+    }
+  }
+}]

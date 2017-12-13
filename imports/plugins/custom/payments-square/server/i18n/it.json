@@ -1,0 +1,27 @@
+[{
+  "language": "Italian",
+  "i18n": "it",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "esempio di pagamento",
+          "squarePaymentProviderTitle": "esempio di pagamento"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "esempio di pagamento",
+          "squarePaymentProviderTitle": "esempio di pagamento",
+          "squarePaymentProviderDescription": "Esempio Metodo di pagamento"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "Provider esempio",
+          "squarePaymentSettingsLabel": "esempio di pagamento",
+          "squareCredentials": "Questo è un esempio di dichiarazione metodo di pagamento.",
+          "apiClientId": "API Client ID",
+          "supportedMethodsLabel": "I fornitori di pagamento hanno sostenuto metodi"
+        }
+      }
+    }
+  }
+}]

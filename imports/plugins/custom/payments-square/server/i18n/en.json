@@ -1,0 +1,27 @@
+[{
+  "language": "English",
+  "i18n": "en",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "Square",
+          "squarePaymentProviderTitle": "Square"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "Square",
+          "squarePaymentProviderTitle": "Square",
+          "squarePaymentProviderDescription": "Square Payment Method"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "Square",
+          "squarePaymentSettingsLabel": "Square",
+          "squareCredentials": "This is an square payment method setting.",
+          "apiClientId": "API Client ID",
+          "supportedMethodsLabel": "Payment provider supported methods"
+        }
+      }
+    }
+  }
+}]

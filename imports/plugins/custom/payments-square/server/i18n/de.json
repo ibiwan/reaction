@@ -1,0 +1,27 @@
+[{
+  "language": "German",
+  "i18n": "de",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "Beispiel Zahlung",
+          "squarePaymentProviderTitle": "Beispiel Zahlung"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "Beispiel Zahlung",
+          "squarePaymentProviderTitle": "Beispiel Zahlung",
+          "squarePaymentProviderDescription": "Beispiel Zahlungsmethode"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "Beispiel Provider",
+          "squarePaymentSettingsLabel": "Beispiel Zahlung",
+          "squareCredentials": "Dies ist ein Beispiel Zahlungsmethode Einstellung.",
+          "apiClientId": "API-Client-ID",
+          "supportedMethodsLabel": "Zahlungsanbieter unterstützt Methoden"
+        }
+      }
+    }
+  }
+}]

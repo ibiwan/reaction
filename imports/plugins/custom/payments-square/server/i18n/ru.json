@@ -1,0 +1,27 @@
+[{
+  "language": "Russian",
+  "i18n": "ru",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "Пример оплаты",
+          "squarePaymentProviderTitle": "Пример оплаты"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "Пример оплаты",
+          "squarePaymentProviderTitle": "Пример оплаты",
+          "squarePaymentProviderDescription": "Пример Способ оплаты"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "Пример Провайдер",
+          "squarePaymentSettingsLabel": "Пример оплаты",
+          "squareCredentials": "Это установка пример способ оплаты.",
+          "apiClientId": "API идентификатор клиента",
+          "supportedMethodsLabel": "Поддерживаемые методы поставщика платежей"
+        }
+      }
+    }
+  }
+}]

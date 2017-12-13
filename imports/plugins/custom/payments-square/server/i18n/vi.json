@@ -1,0 +1,27 @@
+[{
+  "language": "Vietnamese",
+  "i18n": "vi",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "Ví dụ thanh toán",
+          "squarePaymentProviderTitle": "Ví dụ thanh toán"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "Ví dụ thanh toán",
+          "squarePaymentProviderTitle": "Ví dụ thanh toán",
+          "squarePaymentProviderDescription": "Phương thức thanh toán Ví dụ"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "Nhà cung cấp ví dụ",
+          "squarePaymentSettingsLabel": "Ví dụ thanh toán",
+          "squareCredentials": "Đây là cài đặt phương thức thanh toán ví dụ.",
+          "apiClientId": "ID Client API",
+          "supportedMethodsLabel": "Phương thức hỗ trợ nhà cung cấp thanh toán"
+        }
+      }
+    }
+  }
+}]

@@ -1,0 +1,27 @@
+[{
+  "language": "Turkish",
+  "i18n": "tr",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "Örnek Ödeme",
+          "squarePaymentProviderTitle": "Örnek Ödeme"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "Örnek Ödeme",
+          "squarePaymentProviderTitle": "Örnek Ödeme",
+          "squarePaymentProviderDescription": "Örnek Ödeme Yöntemi"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "Örnek Sağlayıcı",
+          "squarePaymentSettingsLabel": "Örnek Ödeme",
+          "squareCredentials": "Bu örnek bir ödeme yöntemi ayarıdır.",
+          "apiClientId": "API İstemci Kimliği",
+          "supportedMethodsLabel": "Ödeme sağlayıcısı tarafından desteklenen yöntemler"
+        }
+      }
+    }
+  }
+}]

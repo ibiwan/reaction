@@ -1,0 +1,27 @@
+[{
+  "language": "Czech",
+  "i18n": "cs",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "Příklad platba",
+          "squarePaymentProviderTitle": "Příklad platba"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "Příklad platba",
+          "squarePaymentProviderTitle": "Příklad platba",
+          "squarePaymentProviderDescription": "Příklad Způsob platby"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "Příklad Poskytovatel",
+          "squarePaymentSettingsLabel": "Příklad platba",
+          "squareCredentials": "Jedná se o nastavení příklad způsob platby.",
+          "apiClientId": "API ID klienta",
+          "supportedMethodsLabel": "Metody podporované poskytovatelem plateb"
+        }
+      }
+    }
+  }
+}]

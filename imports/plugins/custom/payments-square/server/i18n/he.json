@@ -1,0 +1,26 @@
+[{
+  "language": "Hebrew",
+  "i18n": "he",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "תשלום לדוגמה",
+          "squarePaymentProviderTitle": "תשלום לדוגמה"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "תשלום לדוגמה",
+          "squarePaymentProviderTitle": "תשלום לדוגמה",
+          "squarePaymentProviderDescription": "שיטת תשלום לדוגמה"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "ספק לדוגמה",
+          "squarePaymentSettingsLabel": "תשלום לדוגמה",
+          "squareCredentials": "זוהי הגדרה של שיטת תשלום לדוגמה.",
+          "apiClientId": "מזהה לקוח API"
+        }
+      }
+    }
+  }
+}]

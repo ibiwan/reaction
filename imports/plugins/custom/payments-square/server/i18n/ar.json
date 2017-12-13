@@ -1,0 +1,27 @@
+[{
+  "language": "Arabic",
+  "i18n": "ar",
+  "ns": "square-paymentmethod",
+  "translation": {
+    "reaction-payments": {
+      "admin": {
+        "shortcut": {
+          "squarePaymentProviderLabel": "مثال الدفع",
+          "squarePaymentProviderTitle": "مثال الدفع"
+        },
+        "dashboard": {
+          "squarePaymentProviderLabel": "مثال الدفع",
+          "squarePaymentProviderTitle": "مثال الدفع",
+          "squarePaymentProviderDescription": "مثال طريقة الدفع"
+        },
+        "paymentSettings": {
+          "squarePaymentLabel": "مزود سبيل المثال",
+          "squarePaymentSettingsLabel": "مثال الدفع",
+          "squareCredentials": "هذا هو إعداد سبيل المثال طريقة الدفع.",
+          "apiClientId": "معرف العميل API",
+          "supportedMethodsLabel": "طرق دعم مزود الدفع"
+        }
+      }
+    }
+  }
+}]

@@ -1,0 +1,52 @@
+<template name="squarePaymentForm">
+    <style type="text/css">
+        iframe {
+            padding: 0 !important;
+            margin: 0 !important;
+            outline-offset: -2px;
+        }
+        .form-control--focus {
+            border-color: rgb(25, 153, 221);
+            box-shadow: 0 1px 1px rgba(0, 0, 0, 0.075) inset, 0 0 8px rgba(25, 153, 221, 0.6);
+            outline: 0 none;
+        }
+    </style>
+
+    <div class="alert alert-danger hidden">Oh! Snap!</div>
+
+    <div id="apple-pay-area" style="display:none">
+        <button id="sq-apple-pay" class="apple-pay-button apple-pay-button-white" ></button>
+    </div>
+
+    <div id="card-errors"></div>
+
+    <div class="form-group">
+        <label class="control-label">Card Number</label>
+        <div id="sq-card-number"></div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">CVV</label>
+        <div class="form-group" id="sq-cvv"></div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">Expiration Date</label>
+        <div class="form-group" id="sq-expiration-date"></div>
+    </div>
+
+    <div class="form-group">
+        <label class="control-label">Zip Code</label>
+        <div class="form-group" id="sq-postal-code"></div>
+    </div>
+
+    {{#autoForm validation='none' type=formType schema=SquarePayment id="square-payment-form"}}
+    {{>afFieldInput class="hidden" id="card-nonce" type="hidden" name="nonce"}}
+    {{/autoForm}}
+
+    <button id="submitCard" type="submit" class="rui btn btn-lg btn-cta btn-block btn-complete-order">
+        <span id="btn-complete-order" data-i18n="checkoutPayment.completeYourOrder">Complete your order</span>
+        <i class="fa fa-spinner fa-spin hidden" id="btn-processing"></i>
+    </button>
+
+</template>
