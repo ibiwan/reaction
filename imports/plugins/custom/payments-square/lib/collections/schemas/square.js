@@ -10,8 +10,18 @@ export const SquarePackageConfig = new SimpleSchema([
     },
     "settings.apiKey": {
       type: String,
-      label: "API Key",
-      optional: true
+      label: "Access Token",
+      optional: false
+    },
+    "settings.applicationID": {
+      type: String,
+      label: "Application ID",
+      optional: false
+    },
+    "settings.locationID": {
+      type: String,
+      label: "Location ID",
+      optional: false
     }
   }
 ]);

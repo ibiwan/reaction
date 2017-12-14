@@ -31,13 +31,23 @@ class SquareSettingsFormContainer extends Component {
     const packageId = this.props.packageData._id;
     const settingsKey = this.props.packageData.registry[0].settingsKey;
 
-    const fields = [{
-      property: "apiKey",
-      value: settings.apiKey
-    }, {
-      property: "support",
-      value: settings.support
-    }];
+    const fields = [
+      {
+        property: "apiKey",
+        value: settings.apiKey
+      },
+      {
+        property: "applicationID",
+        value: settings.applicationID
+      },
+      {
+        property: "locationID",
+        value: settings.locationID
+      },
+      {
+        property: "support",
+        value: settings.support
+      }];
 
     this.saveUpdate(fields, packageId, settingsKey);
   }

@@ -39,11 +39,16 @@ function handleSquareSubmitError(error) {
 let paymentForm;
 
 function createPaymentForm() {
+  const squarePackage = Packages.findOne({
+    name: "square-paymentmethod",
+    shopId: Reaction.getShopId()
+  });
+  console.log(squarePackage);
   $.getScript("https://js.squareup.com/v2/paymentform").done(function () {
     paymentForm = new SqPaymentForm({
-    // Initialize the payment form elements
-      applicationId: "sandbox-sq0idp-XmSJ25gtP4aeK8QWMfb4rw",
-      locationId: "CDETGJP9T4P8Q",
+      // Initialize the payment form elements
+      applicationId: squarePackage.settings["square-paymentmethod"].applicationID,
+      locationId: squarePackage.settings["square-paymentmethod"].locationID,
       inputClass: "form-control",
 
       // Customize the CSS for SqPaymentForm iframe elements
@@ -75,11 +80,11 @@ function createPaymentForm() {
 
       // SqPaymentForm callback functions
       callbacks: {
-      /*
+        /*
            * callback function: methodsSupported
            * Triggered when: the page is loaded.
            */
-        methodsSupported: function (methods) {
+        methodsSupported: function(methods) {
           const applePayBtn = document.getElementById("sq-apple-pay");
           const applePayLabel = document.getElementById(
             "sq-apple-pay-label"
@@ -107,7 +112,7 @@ function createPaymentForm() {
            * callback function: createPaymentRequest
            * Triggered when: a digital wallet payment button is clicked.
            */
-        createPaymentRequest: function () {
+        createPaymentRequest: function() {
           let paymentRequestJson;
           /* ADD CODE TO SET/CREATE paymentRequestJson */
           return paymentRequestJson;
@@ -117,11 +122,11 @@ function createPaymentForm() {
            * callback function: cardNonceResponseReceived
            * Triggered when: SqPaymentForm completes a card nonce request
            */
-        cardNonceResponseReceived: function (errors, nonce, cardData) {
+        cardNonceResponseReceived: function(errors, nonce, cardData) {
           if (errors) {
-          // Log errors from nonce generation to the Javascript console
+            // Log errors from nonce generation to the Javascript console
             console.log("Encountered errors:");
-            errors.forEach(function (error) {
+            errors.forEach(function(error) {
               console.log("  " + error.message);
             });
             return;
@@ -137,33 +142,33 @@ function createPaymentForm() {
            * callback function: unsupportedBrowserDetected
            * Triggered when: the page loads and an unsupported browser is detected
            */
-        unsupportedBrowserDetected: function () {
-        /* PROVIDE FEEDBACK TO SITE VISITORS */
+        unsupportedBrowserDetected: function() {
+          /* PROVIDE FEEDBACK TO SITE VISITORS */
         },
 
         /*
            * callback function: inputEventReceived
            * Triggered when: visitors interact with SqPaymentForm iframe elements.
            */
-        inputEventReceived: function (inputEvent) {
+        inputEventReceived: function(inputEvent) {
           switch (inputEvent.eventType) {
             case "focusClassAdded":
-            /* HANDLE AS DESIRED */
+              /* HANDLE AS DESIRED */
               break;
             case "focusClassRemoved":
-            /* HANDLE AS DESIRED */
+              /* HANDLE AS DESIRED */
               break;
             case "errorClassAdded":
-            /* HANDLE AS DESIRED */
+              /* HANDLE AS DESIRED */
               break;
             case "errorClassRemoved":
-            /* HANDLE AS DESIRED */
+              /* HANDLE AS DESIRED */
               break;
             case "cardBrandChanged":
-            /* HANDLE AS DESIRED */
+              /* HANDLE AS DESIRED */
               break;
             case "postalCodeChanged":
-            /* HANDLE AS DESIRED */
+              /* HANDLE AS DESIRED */
               break;
             default:
               break;
@@ -174,8 +179,8 @@ function createPaymentForm() {
            * callback function: paymentFormLoaded
            * Triggered when: SqPaymentForm is fully loaded
            */
-        paymentFormLoaded: function () {
-        /* HANDLE AS DESIRED */
+        paymentFormLoaded: function() {
+          /* HANDLE AS DESIRED */
           let currentCart = Cart.findOne();
           paymentForm.setPostalCode(currentCart.billing[0].address.postal);
         }

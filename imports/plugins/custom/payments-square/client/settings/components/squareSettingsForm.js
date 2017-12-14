@@ -9,6 +9,8 @@ class SquareSettingsForm extends Component {
     this.state = {
       settings: {
         apiKey: props.settings.apiKey,
+        applicationID: props.settings.applicationID,
+        locationID: props.settings.locationID,
         support: props.settings.support
       },
       checkbox: {
@@ -59,11 +61,27 @@ class SquareSettingsForm extends Component {
 
         <form onSubmit={this.handleSubmit}>
           <TextField
-            label="API Key"
+            label="Access Token"
             name="apiKey"
             type="text"
             onChange={this.handleStateChange}
             value={setting.apiKey}
+          />
+
+          <TextField
+            label="Application ID"
+            name="applicationID"
+            type="text"
+            onChange={this.handleStateChange}
+            value={setting.applicationID}
+          />
+
+          <TextField
+            label="Location ID"
+            name="locationID"
+            type="text"
+            onChange={this.handleStateChange}
+            value={setting.locationID}
           />
 
           <label className="control-label">
