@@ -258,7 +258,6 @@ AutoForm.addHooks("square-payment-form", {
         }
       }
     );
-    paymentForm.destroy();
     return false;
   },
   beginSubmit: function () {
