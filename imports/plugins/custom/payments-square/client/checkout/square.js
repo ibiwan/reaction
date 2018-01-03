@@ -43,7 +43,6 @@ function createPaymentForm() {
     name: "square-paymentmethod",
     shopId: Reaction.getShopId()
   });
-  console.log(squarePackage);
   $.getScript("https://js.squareup.com/v2/paymentform").done(function () {
     paymentForm = new SqPaymentForm({
       // Initialize the payment form elements
