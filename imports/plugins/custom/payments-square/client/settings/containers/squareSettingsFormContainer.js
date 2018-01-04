@@ -37,14 +37,6 @@ class SquareSettingsFormContainer extends Component {
         value: settings.apiKey
       },
       {
-        property: "applicationID",
-        value: settings.applicationID
-      },
-      {
-        property: "locationID",
-        value: settings.locationID
-      },
-      {
         property: "support",
         value: settings.support
       }];

@@ -68,22 +68,6 @@ class SquareSettingsForm extends Component {
             value={setting.apiKey}
           />
 
-          <TextField
-            label="Application ID"
-            name="applicationID"
-            type="text"
-            onChange={this.handleStateChange}
-            value={setting.applicationID}
-          />
-
-          <TextField
-            label="Location ID"
-            name="locationID"
-            type="text"
-            onChange={this.handleStateChange}
-            value={setting.locationID}
-          />
-
           <label className="control-label">
             <Translation defaultValue="Payment provider supported methods" i18nKey="reaction-payments.paymentSettings.supportedMethodsLabel"/>
           </label>

@@ -37,17 +37,15 @@ function handleSquareSubmitError(error) {
 }
 
 let paymentForm;
+const applicationID = "sq0idp-XmSJ25gtP4aeK8QWMfb4rw";
+const locationID = "CDETGJP9T4P8Q";
 
 function createPaymentForm() {
-  const squarePackage = Packages.findOne({
-    name: "square-paymentmethod",
-    shopId: Reaction.getShopId()
-  });
   $.getScript("https://js.squareup.com/v2/paymentform").done(function () {
     paymentForm = new SqPaymentForm({
       // Initialize the payment form elements
-      applicationId: squarePackage.settings["square-paymentmethod"].applicationID,
-      locationId: squarePackage.settings["square-paymentmethod"].locationID,
+      applicationId: applicationID,
+      locationId: locationID,
       inputClass: "form-control",
 
       // Customize the CSS for SqPaymentForm iframe elements
