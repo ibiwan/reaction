@@ -37,8 +37,8 @@ function handleSquareSubmitError(error) {
 }
 
 let paymentForm;
-const applicationID = "sq0idp-XmSJ25gtP4aeK8QWMfb4rw";
-const locationID = "CDETGJP9T4P8Q";
+const applicationID = "sandbox-sq0idp-XmSJ25gtP4aeK8QWMfb4rw";
+const locationID = "CBASECMIvapL2Y22Ri2VpkIw3yMgAQ";
 
 function createPaymentForm() {
   $.getScript("https://js.squareup.com/v2/paymentform").done(function () {
